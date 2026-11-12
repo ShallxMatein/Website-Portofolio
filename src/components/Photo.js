@@ -2,7 +2,7 @@
 export default function Photo({ src, alt, className = "" }) {
   if (src) {
     // eslint-disable-next-line @next/next/no-img-element
-    return <img src={foto-hero.jpg} alt={alt} className={`border border-line object-cover ${className}`} />;
+    return <img src="/foto-hero.jpg" alt={alt} className={`border border-line object-cover ${className}`} />;
   }
   return (
     <div

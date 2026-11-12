@@ -28,7 +28,7 @@ export default function Hero() {
 
         <div className="flex items-center justify-center md:border-l md:border-line">
           <Photo
-            src={site.heroPhoto}
+            src="/foto-hero.jpg"
             alt={`Foto ${site.fullName}`}
             className="aspect-[3/4] w-full max-w-[340px] rounded-[4px] md:h-[62vh] md:max-h-[560px] md:w-auto md:max-w-none"
           />

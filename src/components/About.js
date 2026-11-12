@@ -11,7 +11,7 @@ export default function About() {
 
         <Reveal className="flex flex-1 flex-col items-center justify-center pt-16">
           <Photo
-            src={site.aboutPhoto}
+            src="/foto-hero.jpg"
             alt={`Potret ${site.fullName}`}
             className="h-[220px] w-[220px] rounded-full sm:h-[280px] sm:w-[280px]"
           />
